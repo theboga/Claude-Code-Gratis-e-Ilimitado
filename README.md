@@ -38,209 +38,52 @@ local:
     el Mac.
 
 
-<table >
-<colgroup>
-<col />
-<col />
-<col />
-</colgroup>
-<thead>
-<tr>
-<th><h1 id="family">Family</h1></th>
-<th><h1 id="model">Model</h1></th>
-<th><h1 id="score">Score</h1></th>
-</tr>
-<tr>
-<th><h1 id="kimi">Kimi</h1></th>
-<th><h1 id="k2.5">k2.5</h1></th>
-<th><h1 id="section-1">121/125 (97%)</h1></th>
-</tr>
-<tr>
-<th rowspan="6"><h1 id="qwen3.5">Qwen3.5</h1></th>
-<th><h1 id="b">0.8b</h1></th>
-<th><h1 id="section-2">31/125 (24%)</h1></th>
-</tr>
-<tr>
-<th><h1 id="b-1">2b</h1></th>
-<th><h1 id="section-3">81/125 (65%)</h1></th>
-</tr>
-<tr>
-<th><h1 id="b-2">4b</h1></th>
-<th><h1 id="section-4">77/125 (62%)</h1></th>
-</tr>
-<tr>
-<th><h1 id="b-3">9b</h1></th>
-<th><h1 id="section-5">100/125 (80%)</h1></th>
-</tr>
-<tr>
-<th><h1 id="b-4">35b</h1></th>
-<th><h1 id="section-6">111/125 (88%)</h1></th>
-</tr>
-<tr>
-<th><h1 id="b-5">397b</h1></th>
-<th><h1 id="section-7">120/125 (96%)</h1></th>
-</tr>
-<tr>
-<th rowspan="5"><h1 id="qwen3">Qwen3</h1></th>
-<th><h1 id="b-6">0.6b</h1></th>
-<th><h1 id="section-8">—</h1></th>
-</tr>
-<tr>
-<th><h1 id="b-7">1.7b</h1></th>
-<th><h1 id="section-9">42/125 (34%)</h1></th>
-</tr>
-<tr>
-<th><h1 id="b-8">4b</h1></th>
-<th><h1 id="section-10">94/125 (75%)</h1></th>
-</tr>
-<tr>
-<th><h1 id="b-9">8b</h1></th>
-<th><h1 id="section-11">85/125 (68%)</h1></th>
-</tr>
-<tr>
-<th><h1 id="b-10">30b</h1></th>
-<th><h1 id="section-12">103/125 (82%)</h1></th>
-</tr>
-<tr>
-<th rowspan="2"><h1 id="gemma4">Gemma4</h1></th>
-<th><h1 id="e4b">e4b</h1></th>
-<th><h1 id="section-13">34/125 (27%)</h1></th>
-</tr>
-<tr>
-<th><h1 id="b-11">31b</h1></th>
-<th><h1 id="section-14">105/125 (84%)</h1></th>
-</tr>
-<tr>
-<th rowspan="4"><h1 id="gemma3">Gemma3</h1></th>
-<th><h1 id="b-12">1b</h1></th>
-<th><h1 id="section-15">—</h1></th>
-</tr>
-<tr>
-<th><h1 id="b-13">4b</h1></th>
-<th><h1 id="section-16">37/125 (30%)</h1></th>
-</tr>
-<tr>
-<th><h1 id="b-14">12b</h1></th>
-<th><h1 id="section-17">77/125 (62%)</h1></th>
-</tr>
-<tr>
-<th><h1 id="b-15">27b</h1></th>
-<th><h1 id="section-18">73/125 (58%)</h1></th>
-</tr>
-<tr>
-<th rowspan="3"><h1 id="llama">Llama</h1></th>
-<th><h1 id="b-16">3.2:1b</h1></th>
-<th><h1 id="section-19">—</h1></th>
-</tr>
-<tr>
-<th><h1 id="b-17">3.2:3b</h1></th>
-<th><h1 id="section-20">26/125 (20%)</h1></th>
-</tr>
-<tr>
-<th><h1 id="b-18">3.1:8b</h1></th>
-<th><h1 id="section-21">60/125 (48%)</h1></th>
-</tr>
-<tr>
-<th rowspan="3"><h1 id="mistral">Mistral</h1></th>
-<th><h1 id="small3.2">small3.2</h1></th>
-<th><h1 id="section-22">72/125 (57%)</h1></th>
-</tr>
-<tr>
-<th><h1 id="ministral-3">ministral-3</h1></th>
-<th><h1 id="section-23">51/125 (40%)</h1></th>
-</tr>
-<tr>
-<th><h1 id="large-3">large-3</h1></th>
-<th><h1 id="section-24">59/125 (47%)</h1></th>
-</tr>
-<tr>
-<th><h1 id="devstral">Devstral</h1></th>
-<th><h1 id="section-25">2</h1></th>
-<th><h1 id="section-26">60/125 (48%)</h1></th>
-</tr>
-<tr>
-<th><h1 id="minimax">MiniMax</h1></th>
-<th><h1 id="m2.7">M2.7</h1></th>
-<th><h1 id="section-27">120/125 (96%)</h1></th>
-</tr>
-<tr>
-<th><h1 id="phi">Phi</h1></th>
-<th><h1 id="phi4">phi4</h1></th>
-<th><h1 id="section-28">58/125 (46%)</h1></th>
-</tr>
-<tr>
-<th><h1 id="gpt-oss">GPT-OSS</h1></th>
-<th><h1 id="b-19">20b</h1></th>
-<th><h1 id="section-29">94/125 (75%)</h1></th>
-</tr>
-<tr>
-<th rowspan="2"><h1 id="olmo2">OLMo2</h1></th>
-<th><h1 id="b-20">7b</h1></th>
-<th><h1 id="section-30">13/125 (10%)</h1></th>
-</tr>
-<tr>
-<th><h1 id="b-21">13b</h1></th>
-<th><h1 id="section-31">47/125 (38%)</h1></th>
-</tr>
-<tr>
-<th><h1 id="cogito">Cogito</h1></th>
-<th><h1 id="b-22">3b</h1></th>
-<th><h1 id="section-32">10/125 (8%)</h1></th>
-</tr>
-<tr>
-<th rowspan="2"><h1 id="glm">GLM</h1></th>
-<th><h1 id="flash">4.7-flash</h1></th>
-<th><h1 id="section-33">102/125 (82%)</h1></th>
-</tr>
-<tr>
-<th><h1 id="section-34">5</h1></th>
-<th><h1 id="section-35">120/125 (96%)</h1></th>
-</tr>
-<tr>
-<th><h1 id="nemotron">Nemotron</h1></th>
-<th><h1 id="super">3-super</h1></th>
-<th><h1 id="section-36">49/125 (39%)</h1></th>
-</tr>
-<tr>
-<th rowspan="3"><h1 id="gemini">Gemini</h1></th>
-<th><h1 id="flash-1">2.5-flash</h1></th>
-<th><h1 id="section-37">—</h1></th>
-</tr>
-<tr>
-<th><h1 id="flash-2">3.1-flash</h1></th>
-<th><h1 id="section-38">—</h1></th>
-</tr>
-<tr>
-<th><h1 id="pro">3.1-pro</h1></th>
-<th><h1 id="section-39">—</h1></th>
-</tr>
-<tr>
-<th rowspan="2"><h1 id="claude">Claude</h1></th>
-<th><h1 id="sonnet">4.6-sonnet</h1></th>
-<th><h1 id="section-40">—</h1></th>
-</tr>
-<tr>
-<th><h1 id="haiku">4.5-haiku</h1></th>
-<th><h1 id="section-41">—</h1></th>
-</tr>
-<tr>
-<th><h1 id="gpt">GPT</h1></th>
-<th><h1 id="mini">5-mini</h1></th>
-<th><h1 id="section-42">—</h1></th>
-</tr>
-<tr>
-<th rowspan="2"><h1 id="deepseek">DeepSeek</h1></th>
-<th><h1 id="chat">chat</h1></th>
-<th><h1 id="section-43">—</h1></th>
-</tr>
-<tr>
-<th><h1 id="reasoner">reasoner</h1></th>
-<th><h1 id="section-44">—</h1></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
+<table>
+<tr><th>Family</th><th>Model</th><th>Score</th></tr>
+<tr><td><b>Kimi</b></td><td>k2.5</td><td><b>121/125 (97%)</b></td></tr>
+<tr><td rowspan="6"><b>Qwen3.5</b></td><td>0.8b</td><td>31/125 (24%)</td></tr>
+<tr><td>2b</td><td>81/125 (65%)</td></tr>
+<tr><td>4b</td><td>77/125 (62%)</td></tr>
+<tr><td>9b</td><td><b>100/125 (80%)</b></td></tr>
+<tr><td>35b</td><td><b>111/125 (88%)</b></td></tr>
+<tr><td>397b</td><td><b>120/125 (96%)</b></td></tr>
+<tr><td rowspan="5"><b>Qwen3</b></td><td>0.6b</td><td>—</td></tr>
+<tr><td>1.7b</td><td>42/125 (34%)</td></tr>
+<tr><td>4b</td><td><b>94/125 (75%)</b></td></tr>
+<tr><td>8b</td><td>85/125 (68%)</td></tr>
+<tr><td>30b</td><td><b>103/125 (82%)</b></td></tr>
+<tr><td rowspan="2"><b>Gemma4</b></td><td>e4b</td><td>34/125 (27%)</td></tr>
+<tr><td>31b</td><td><b>105/125 (84%)</b></td></tr>
+<tr><td rowspan="4"><b>Gemma3</b></td><td>1b</td><td>—</td></tr>
+<tr><td>4b</td><td>37/125 (30%)</td></tr>
+<tr><td>12b</td><td>77/125 (62%)</td></tr>
+<tr><td>27b</td><td>73/125 (58%)</td></tr>
+<tr><td rowspan="3"><b>Llama</b></td><td>3.2:1b</td><td>—</td></tr>
+<tr><td>3.2:3b</td><td>26/125 (20%)</td></tr>
+<tr><td>3.1:8b</td><td>60/125 (48%)</td></tr>
+<tr><td rowspan="3"><b>Mistral</b></td><td>small3.2</td><td>72/125 (57%)</td></tr>
+<tr><td>ministral-3</td><td>51/125 (40%)</td></tr>
+<tr><td>large-3</td><td>59/125 (47%)</td></tr>
+<tr><td><b>Devstral</b></td><td>2</td><td>60/125 (48%)</td></tr>
+<tr><td><b>MiniMax</b></td><td>M2.7</td><td><b>120/125 (96%)</b></td></tr>
+<tr><td><b>Phi</b></td><td>phi4</td><td>58/125 (46%)</td></tr>
+<tr><td><b>GPT-OSS</b></td><td>20b</td><td>94/125 (75%)</td></tr>
+<tr><td rowspan="2"><b>OLMo2</b></td><td>7b</td><td>13/125 (10%)</td></tr>
+<tr><td>13b</td><td>47/125 (38%)</td></tr>
+<tr><td><b>Cogito</b></td><td>3b</td><td>10/125 (8%)</td></tr>
+<tr><td rowspan="2"><b>GLM</b></td><td>4.7-flash</td><td><b>102/125 (82%)</b></td></tr>
+<tr><td>5</td><td><b>120/125 (96%)</b></td></tr>
+<tr><td><b>Nemotron</b></td><td>3-super</td><td>49/125 (39%)</td></tr>
+<tr><td rowspan="3"><b>Gemini</b></td><td>2.5-flash</td><td>—</td></tr>
+<tr><td>3.1-flash</td><td>—</td></tr>
+<tr><td>3.1-pro</td><td>—</td></tr>
+<tr><td rowspan="2"><b>Claude</b></td><td>4.6-sonnet</td><td>—</td></tr>
+<tr><td>4.5-haiku</td><td>—</td></tr>
+<tr><td><b>GPT</b></td><td>5-mini</td><td>—</td></tr>
+<tr><td rowspan="2"><b>DeepSeek</b></td><td>chat</td><td>—</td></tr>
+<tr><td>reasoner</td><td>—</td></tr>
 </table>
+
 
 ## 🛠 Requisitos Previos
 
